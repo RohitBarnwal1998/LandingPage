@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  height: 15vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  color: white;
+}
+
+.container {
+  padding: 10px 10%;
+}
+#color {
+  background-color: #2f36ab;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.col-1 {
+  flex-basis: 50%;
+}
+
+.col-1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  text-align-last: right;
+}
+
+h2 {
+  color: #2f36ab;
+  font-size: 29px;
+}
+#para {
+  color: #2f36ab;
+  font-size: 25px;
+}
+
+.btn {
+  color: white;
+  background-color: #2f36ab;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 27px;
+  padding-right: 27px;
+  
+}
+.btn:hover {
+    background-color: bla;
+  }
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  /* width: 1000px; */
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.container1 .box {
+  position: relative;
+  width: 250px;
+  background: #fff;
+  padding: 40px 40px 40px;
+  box-shadow: 0px 15px 45px;
+  align-items: center;
+  text-align: center;
+}
+#services {
+  text-align: center;
+  color: #333534;
+  padding-bottom: 20px;
+}
+
+.container1 .box .logo2 {
+  margin: auto;
+}
+
+.box h3 {
+  color: #2f36ab;
+  font-size: 12px;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.box p{
+ font-size: 12px;
+}
+
+/* .....media queryy */
+
+@media(max-width: 420px) {
+    #Section-1{ margin-top: 100px; }
+  .col-1 {
+    flex-basis: 100%;
+  }
+}
+ 
